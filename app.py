@@ -2,7 +2,7 @@ print('---Temperature Converter---')
 
 from Temperature_Converter import TemperatureConverter
 
-initial_value = input('Input temperature value: ')
+initial_value = eval(input('Input temperature value: '))
 initial_unit = input('Select initial temperature unit (C/F/R/K): ').upper()
 convert = input('Select unit as you want to convert (C/F/R/K):').upper()
 
